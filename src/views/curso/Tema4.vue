@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'SINTESIS'")
+  BannerInterno(:subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p.mb-4 La Unidad 2: Dilemas éticos transversales en la globalización explora los retos éticos fundamentales que surgen en un mundo interconectado, donde la globalización y los avances tecnológicos impactan las dinámicas laborales, económicas y sociales. Esta unidad aborda temas clave como el impacto de la tecnología en el ámbito laboral, la influencia de la economía global en la equidad y la justicia social, y el papel de la responsabilidad social corporativa en la toma de decisiones empresariales.
       br

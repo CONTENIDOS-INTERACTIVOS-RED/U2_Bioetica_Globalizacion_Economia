@@ -20,9 +20,7 @@
         .p-4.mb-4(style="background-color: #eaf8fd")
           p.mb-0 En el contexto colombiano, esta desigualdad se manifiesta en la concentración de riqueza en sectores económicos específicos y en regiones con mejor infraestructura y acceso a capital. Según estudios del Banco Mundial, en Colombia la brecha de ingresos entre los sectores urbano y rural, es significativa, y el 10 % más rico de la población acumula aproximadamente el 40 % de los ingresos totales del país (Banco Mundial, 2021).
         p.mb-0 Esta realidad plantea importantes desafíos para la justicia social, dado que la falta de equidad en la distribución de la riqueza, limita el acceso a oportunidades y perpetúa ciclos de pobreza y exclusión social, especialmente en comunidades rurales e indígenas.
-          br
-          br
-          | Esta realidad plantea importantes desafíos para la justicia social, dado que la falta de equidad en la distribución de la riqueza, limita el acceso a oportunidades y perpetúa ciclos de pobreza y exclusión social, especialmente en comunidades rurales e indígenas.
+
     #t_2_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 2.2] Factores que influyen a la desigualdad económica 
     p.mb-4 Existen diversas causas que aumentan desigualdad en la distribución de la riqueza en la economía global; algunos de los principales factores estructurales y contextuales que han contribuido, de forma relevante, son:
@@ -62,7 +60,7 @@
                 img(src='@/assets/curso/temas/10.svg', alt='Texto que describa la imagen')
             .tarjeta.p-3(x="37%" y="9%" numero="+" style="background-color: #fffbe8 ")
               .h5.mb-2 Políticas de redistribución de ingresos 
-              p Políticas de redistribución de ingresos mediante impuestos progresivos 
+              p Políticas de redistribución de ingresos mediante impuestos progresivos.
                 br
                 |Algunos países han adoptado sistemas fiscales progresivos, para reducir la desigualdad. Este tipo de sistemas busca que los ciudadanos de mayores ingresos, paguen una mayor proporción en impuestos, generando, de esta manera, fondos para financiar programas sociales.
             .tarjeta.p-3(x="82%" y="4%" numero="+" style="background-color: #fffbe8 ")
@@ -79,10 +77,10 @@
               p Establecer un salario mínimo adecuado y leyes de protección laboral, ha sido una estrategia fundamental en muchos países, para mejorar las condiciones de los trabajadores de bajos ingresos. Estas políticas buscan garantizar que el salario cubra las necesidades básicas y que los trabajadores tengan acceso a condiciones de trabajo justas. La Unión Europea, por ejemplo, ha propuesto directrices para armonizar el salario mínimo en sus países miembros, con el fin de reducir la desigualdad dentro de la región.
             .tarjeta.p-3(x="48%" y="76%" numero="+" style="background-color: #fffbe8 ")
               .h5.mb-2 Inversión en educación y capacitación laboral
-              p Aumentar el acceso a la educación de calidad y a programas de capacitación laboral, es una política clave para reducir la desigualdad a largo plazo, porque promueve la movilidad social. Iniciativas como los Objetivos de Desarrollo Sostenible de las Naciones Unidas (ODS), especialmente el ODS 4 sobre educación de calidad, fomentan la inversión en educación inclusiva, para reducir las brechas de habilidades y mejorar las oportunidades laborales en sectores vulnerables (ONU, 2015) . En Colombia, una de las entidades participativas es el Servicio Nacional de Aprendizaje SENA.
+              p Aumentar el acceso a la educación de calidad y a programas de capacitación laboral, es una política clave para reducir la desigualdad a largo plazo, porque promueve la movilidad social. Iniciativas como los Objetivos de Desarrollo Sostenible de las Naciones Unidas (ODS), especialmente el ODS 4 sobre educación de calidad, fomentan la inversión en educación inclusiva, para reducir las brechas de habilidades y mejorar las oportunidades laborales en sectores vulnerables (ONU, 2015). En Colombia, una de las entidades participativas es el Servicio Nacional de Aprendizaje SENA.
             .tarjeta.p-3(x="37%" y="94.5%" numero="+" style="background-color: #fffbe8 ")
               .h5.mb-2 Acuerdos y directrices internacionales
-              p Acuerdos y directrices internacionales sobre impuestos a multinacionales 
+              p Acuerdos y directrices internacionales sobre impuestos a multinacionales.
                 br
                 |Organismos como la OCDE, han promovido acuerdos internacionales para combatir la evasión fiscal y asegurar que las multinacionales paguen impuestos justos en los países donde operan, lo que permite a los gobiernos disponer de más recursos para políticas redistributivas. En el 2021, más de 130 países acordaron implementar un impuesto mínimo global, a las multinacionales, con el fin de reducir la competencia fiscal y redistribuir ingresos (OECD, 2021).
     #t_2_4.titulo-segundo(data-aos="flip-up")
@@ -95,6 +93,49 @@
           |Otro desafío importante es el impacto del cambio climático, que afecta de forma desproporcionada, a las poblaciones vulnerables, como en regiones sin los recursos necesarios para adaptarse. La adopción de economías verdes y circulares, promovidas por organizaciones internacionales, busca enfrentar esta desigualdad ambiental y generar empleos sostenibles que beneficien a toda la población (ONU, 2019). Finalmente, el fortalecimiento de la cooperación global, junto con políticas fiscales y sociales inclusivas, será crucial para construir un futuro más equitativo, donde el crecimiento económico y la justicia social se integren de manera equilibrada.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/11.png', alt='')
 
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            // Referencias agregadas según formato solicitado
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/51423" target="_blank" rel="noopener noreferrer") García Peregrín, E. (2018). Bioética: temas para el debate. Vol. 2: ( ed.). Bubok Publishing S.L.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/41139" target="_blank" rel="noopener noreferrer") Garza Grimaldo, J. G. & Valqui Cachi, C. (2017). Los valores en la dialéctica de la humanidad y la naturaleza en el siglo XXI: ( ed.). Ediciones y Gráficos Eón.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/40950" target="_blank" rel="noopener noreferrer") Núñez de Castro, I. (2017). La bioética: un camino para el presente: ( ed.). ITESO - Instituto Tecnológico y de Estudios Superiores de Occidente.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/219184" target="_blank" rel="noopener noreferrer") Pinilla Forero, J. (2022). Ética y bioética en la práctica profesional. Revista Colombiana de Ciencias Administrativas, 4 (1), 78-93: ( ed.). Fundación Universitaria San Mateo.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://repositorio.cepal.org/server/api/core/bitstreams/3807d08e-c4b5-41de-9fe5-ad115f2f1447/content" target="_blank" rel="noopener noreferrer") M. E. Valenzuela, M. L. Scuro e I.Vaca Trigo,“Desigualdad, crisis de los cuidados y migración del trabajo doméstico remunerado en América Latina”, serie Asuntos de Género, N° 158 (LC/TS.2020/179), Santiago, Comisión Económica para América Latina y el Caribe (CEPAL), 2020
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://ejcls.adapt.it/index.php/rlde_adapt/article/view/452" target="_blank" rel="noopener noreferrer") Spemolla, G. C. (2017). El trabajo en la era digital: Reflexiones sobre el impacto de la digitalización en el trabajo, la regulación laboral y las relaciones laborales. Relaciones Laborales y Derecho del Empleo.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.revistasice.com/index.php/BICE/article/download/3598/3598" target="_blank" rel="noopener noreferrer") de la Cuesta González, M. (2004). El porqué de la responsabilidad social corporativa. 45–58.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/pE3VeNcYZ64" target="_blank" rel="noopener noreferrer") Banco Interamericano de Desarrollo (BID). (2020, 15 de septiembre). La crisis de la desigualdad | Lanzamiento del informe [Video]. YouTube.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/F0r9hl9kYhU" target="_blank" rel="noopener noreferrer") Universidad Técnica Particular de Loja (UTPL). (2013, 16 de octubre). Normas de la RSE [Responsabilidad Social Empresarial] [Video]. YouTube.
+
+
+         
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

@@ -93,7 +93,7 @@ export default {
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
-        titulo: 'SINTESIS',
+        titulo: 'Síntesis',
         desarrolloContenidos: true,
       },
       // {
@@ -251,7 +251,7 @@ export default {
     {
       termino: 'Impacto Social',
       significado:
-        'efectos que las decisiones y acciones de individuos o empresas tienen sobre las comunidades y sociedades',
+        'efectos que las decisiones y acciones de individuos o empresas tienen sobre las comunidades y sociedades.',
     },
     {
       termino: 'Responsabilidad Social Corporativa (RSC)',
@@ -271,7 +271,7 @@ export default {
     {
       termino: 'Vulnerabilidad Social',
       significado:
-        'riesgo de que ciertos grupos o individuos enfrenten desventajas económicas, sociales o políticas',
+        'riesgo de que ciertos grupos o individuos enfrenten desventajas económicas, sociales o políticas.',
     },
   ],
 }

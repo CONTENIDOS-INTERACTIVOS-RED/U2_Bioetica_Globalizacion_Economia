@@ -3,12 +3,21 @@
   BannerInterno(:subTitulo="'3. Responsabilidad Social Corporativa (RSC) y ética en las decisiones empresariales'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p.mb-4 La Responsabilidad Social Corporativa (RSC) se ha convertido en un aspecto transversal dentro de las prácticas empresariales, destacándose como una práctica necesaria para que las organizaciones contribuyan al bienestar social y ambiental, generando un valor económico. En un contexto de globalización y de constantes expectativas sociales, las empresas no solo son evaluadas por su rentabilidad, sino también por su impacto ético y su contribución al desarrollo sostenible. La RSC se enmarca en una visión de gestión que busca equilibrar los intereses económicos, con el compromiso hacia las comunidades y el medio ambiente, promoviendo prácticas que trascienden las obligaciones legales y reflejan una ética corporativa.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.align-items-center
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/12.png', alt='')
       .col-lg-7
         .p-4.mb-4(style="background-color: #eaf8fd ")
           p.mb-0 Este tema aborda la definición y el alcance de la RSC, analizando cómo se articula con los valores y objetivos de las organizaciones. A su vez, se expone la relación entre la RSC y la ética, destacando cómo ésta no puede desvincularse de las consideraciones éticas en la toma de decisiones empresariales. 
-        p.mb-0 Finalmente, se presentarán los beneficios y desafíos de la RSC, permitiendo una comprensión integral de cómo estas prácticas pueden impactar positivamente, tanto a las empresas como a la sociedad, al tiempo que enfrentan retos en su implementación.
+
+        p.mb-0 También se profundizará en la ética en las decisiones empresariales, examinando el papel de los principios éticos, al orientar la gestión y la estrategia organizacional. 
+        
+        
+    p.mb-5 Finalmente, se presentarán los beneficios y desafíos de la RSC, permitiendo una comprensión integral de cómo estas prácticas pueden impactar positivamente, tanto a las empresas como a la sociedad, al tiempo que enfrentan retos en su implementación.
+
+
+
+
+
     #t_3_1.titulo-segundo(data-aos="flip-up")
       h2 #[span 3.1] Definición y alcance de la Responsabilidad Social Corporativa (RSC)
     .row.justify-content-center.mb-5
@@ -112,23 +121,61 @@
     .bg-video.bg-full-width.p-5
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. Leyenda del video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/f1pYVSyJ-5c?si=EM49zHQG0hCPaPPh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Desafíos de la responsabilidad scial corporativa
 
 
 
 
 
+    .bg-full-width.border-top.actividad.bg-color-actividad.mb-5
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            // Referencias agregadas según formato solicitado
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/51423" target="_blank" rel="noopener noreferrer") García Peregrín, E. (2018). Bioética: temas para el debate. Vol. 2: ( ed.). Bubok Publishing S.L.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/41139" target="_blank" rel="noopener noreferrer") Garza Grimaldo, J. G. & Valqui Cachi, C. (2017). Los valores en la dialéctica de la humanidad y la naturaleza en el siglo XXI: ( ed.). Ediciones y Gráficos Eón.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/40950" target="_blank" rel="noopener noreferrer") Núñez de Castro, I. (2017). La bioética: un camino para el presente: ( ed.). ITESO - Instituto Tecnológico y de Estudios Superiores de Occidente.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/219184" target="_blank" rel="noopener noreferrer") Pinilla Forero, J. (2022). Ética y bioética en la práctica profesional. Revista Colombiana de Ciencias Administrativas, 4 (1), 78-93: ( ed.). Fundación Universitaria San Mateo.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://repositorio.cepal.org/server/api/core/bitstreams/3807d08e-c4b5-41de-9fe5-ad115f2f1447/content" target="_blank" rel="noopener noreferrer") M. E. Valenzuela, M. L. Scuro e I.Vaca Trigo,“Desigualdad, crisis de los cuidados y migración del trabajo doméstico remunerado en América Latina”, serie Asuntos de Género, N° 158 (LC/TS.2020/179), Santiago, Comisión Económica para América Latina y el Caribe (CEPAL), 2020
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://ejcls.adapt.it/index.php/rlde_adapt/article/view/452" target="_blank" rel="noopener noreferrer") Spemolla, G. C. (2017). El trabajo en la era digital: Reflexiones sobre el impacto de la digitalización en el trabajo, la regulación laboral y las relaciones laborales. Relaciones Laborales y Derecho del Empleo.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.revistasice.com/index.php/BICE/article/download/3598/3598" target="_blank" rel="noopener noreferrer") de la Cuesta González, M. (2004). El porqué de la responsabilidad social corporativa. 45–58.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/pE3VeNcYZ64" target="_blank" rel="noopener noreferrer") Banco Interamericano de Desarrollo (BID). (2020, 15 de septiembre). La crisis de la desigualdad | Lanzamiento del informe [Video]. YouTube.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/F0r9hl9kYhU" target="_blank" rel="noopener noreferrer") Universidad Técnica Particular de Loja (UTPL). (2013, 16 de octubre). Normas de la RSE [Responsabilidad Social Empresarial] [Video]. YouTube.
 
 
+         
 
-
-
-
-
-
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 
@@ -149,8 +196,207 @@ export default {
 }
 </script>
 
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Pensamiento estratégico y prospectivo',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál es uno de los dilemas éticos derivados de la globalización en el ámbito laboral?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Desigualdad en los salarios.',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Superabundancia de empleos en todos los sectores.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Aumento en las prestaciones laborales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Homogeneización de los trabajos.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La desigualdad en los salarios es uno de los dilemas éticos derivados de la globalización en el ámbito laboral.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los dilemas éticos derivados de la globalización en el ámbito laboral.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué documento internacional tiene como objetivo garantizar los derechos laborales fundamentales?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Pacto Internacional sobre Derechos Económicos, Sociales y Culturales.',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Declaración Universal de Derechos Humanos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Tratado de Libre Comercio.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Carta de las Naciones Unidas.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El Pacto Internacional sobre Derechos Económicos, Sociales y Culturales tiene como objetivo garantizar los derechos laborales fundamentales.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los documentos internacionales sobre derechos laborales.',
+          },
+          {
+            id: 3,
+            texto:
+              'En el contexto de la RSC, ¿qué busca la implementación de políticas fiscales progresivas?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Reducir los impuestos a las empresas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Favorecer a los trabajadores en países en desarrollo.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Redistribuir los ingresos de manera equitativa.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Promover el libre comercio global.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La implementación de políticas fiscales progresivas busca redistribuir los ingresos de manera equitativa.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa el objetivo de las políticas fiscales progresivas en el contexto de la RSC.',
+          },
+          {
+            id: 4,
+            texto: '¿Qué es lo que representa la brecha digital?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'La falta de acceso a la energía eléctrica en zonas rurales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'La desigualdad en el acceso a tecnología entre diferentes grupos sociales.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'La desigualdad en el acceso a la salud digital.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'La diferencia de salarios en el ámbito digital.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La brecha digital representa la desigualdad en el acceso a tecnología entre diferentes grupos sociales.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa el concepto de brecha digital.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuál de las siguientes es una característica del modelo económico globalizado actual?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Uniformidad en las regulaciones laborales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Desigualdad creciente en los salarios y las condiciones de trabajo.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Reducción de la explotación de recursos naturales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Mayor igualdad en el acceso a tecnología.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Una característica del modelo económico globalizado actual es la desigualdad creciente en los salarios y las condiciones de trabajo.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las características del modelo económico globalizado actual.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
 <style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
+.bg-color-actividad
+  background-color: #EBF1F5
 </style>

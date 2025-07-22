@@ -20,7 +20,7 @@
               img(src='@/assets/curso/temas/4.png', alt='')
           .col-lg-7
             h2.mb-4(data-aos="flip-up") Dilemas éticos
-            p.mb-4(data-aos="fade-right") En un mundo cada vez más interconectado, los avances tecnológicos y la globalización han redefinido las dinámicas laborales, introduciendo desafíos éticos significativos que requieren atención urgente. Desde el impacto de la automatización y la digitalización en la estabilidad laboral hasta las brechas de desigualdad generadas por la economía digital, los dilemas éticos se presentan como una constante que exige un análisis profundo y comprometido. En este contexto, el estudio de temas como la transformación tecnológica, la automatización y la inclusión digital se vuelve esencial para entender las implicaciones sociales y éticas que estos fenómenos traen consigo, así como para diseñar respuestas que promuevan una transición laboral inclusiva y equitativa. A continuación, el PDF Dilemas éticos , explora estas temáticas, ofreciendo un enfoque crítico sobre la necesidad de armonizar el progreso tecnológico con la protección de los derechos laborales y la dignidad humana.
+            p.mb-4(data-aos="fade-right") En un mundo cada vez más interconectado, los avances tecnológicos y la globalización han redefinido las dinámicas laborales, introduciendo desafíos éticos significativos que requieren atención urgente. Desde el impacto de la automatización y la digitalización en la estabilidad laboral hasta las brechas de desigualdad generadas por la economía digital, los dilemas éticos se presentan como una constante que exige un análisis profundo y comprometido. En este contexto, el estudio de temas como la transformación tecnológica, la automatización y la inclusión digital se vuelve esencial para entender las implicaciones sociales y éticas que estos fenómenos traen consigo, así como para diseñar respuestas que promuevan una transición laboral inclusiva y equitativa. A continuación, el PDF Dilemas éticos, explora estas temáticas, ofreciendo un enfoque crítico sobre la necesidad de armonizar el progreso tecnológico con la protección de los derechos laborales y la dignidad humana.
 
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -29,7 +29,48 @@
                 p <strong>Anexo. </strong> Dilemas éticos.
 
 
-    
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            // Referencias agregadas según formato solicitado
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/51423" target="_blank" rel="noopener noreferrer") García Peregrín, E. (2018). Bioética: temas para el debate. Vol. 2: ( ed.). Bubok Publishing S.L.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/41139" target="_blank" rel="noopener noreferrer") Garza Grimaldo, J. G. & Valqui Cachi, C. (2017). Los valores en la dialéctica de la humanidad y la naturaleza en el siglo XXI: ( ed.). Ediciones y Gráficos Eón.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/40950" target="_blank" rel="noopener noreferrer") Núñez de Castro, I. (2017). La bioética: un camino para el presente: ( ed.). ITESO - Instituto Tecnológico y de Estudios Superiores de Occidente.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/219184" target="_blank" rel="noopener noreferrer") Pinilla Forero, J. (2022). Ética y bioética en la práctica profesional. Revista Colombiana de Ciencias Administrativas, 4 (1), 78-93: ( ed.). Fundación Universitaria San Mateo.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://repositorio.cepal.org/server/api/core/bitstreams/3807d08e-c4b5-41de-9fe5-ad115f2f1447/content" target="_blank" rel="noopener noreferrer") M. E. Valenzuela, M. L. Scuro e I.Vaca Trigo,“Desigualdad, crisis de los cuidados y migración del trabajo doméstico remunerado en América Latina”, serie Asuntos de Género, N° 158 (LC/TS.2020/179), Santiago, Comisión Económica para América Latina y el Caribe (CEPAL), 2020
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://ejcls.adapt.it/index.php/rlde_adapt/article/view/452" target="_blank" rel="noopener noreferrer") Spemolla, G. C. (2017). El trabajo en la era digital: Reflexiones sobre el impacto de la digitalización en el trabajo, la regulación laboral y las relaciones laborales. Relaciones Laborales y Derecho del Empleo.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.revistasice.com/index.php/BICE/article/download/3598/3598" target="_blank" rel="noopener noreferrer") de la Cuesta González, M. (2004). El porqué de la responsabilidad social corporativa. 45–58.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/pE3VeNcYZ64" target="_blank" rel="noopener noreferrer") Banco Interamericano de Desarrollo (BID). (2020, 15 de septiembre). La crisis de la desigualdad | Lanzamiento del informe [Video]. YouTube.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/F0r9hl9kYhU" target="_blank" rel="noopener noreferrer") Universidad Técnica Particular de Loja (UTPL). (2013, 16 de octubre). Normas de la RSE [Responsabilidad Social Empresarial] [Video]. YouTube.
+
+
+         
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
       
 </template>
 
