@@ -57,7 +57,7 @@
               a(href="https://ejcls.adapt.it/index.php/rlde_adapt/article/view/452" target="_blank" rel="noopener noreferrer") Spemolla, G. C. (2017). El trabajo en la era digital: Reflexiones sobre el impacto de la digitalización en el trabajo, la regulación laboral y las relaciones laborales. Relaciones Laborales y Derecho del Empleo.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.revistasice.com/index.php/BICE/article/download/3598/3598" target="_blank" rel="noopener noreferrer") de la Cuesta González, M. (2004). El porqué de la responsabilidad social corporativa. 45–58.
+              a(href="https://www.revistasice.com/index.php/BICE/article/view/3598" target="_blank" rel="noopener noreferrer") de la Cuesta González, M. (2004). El porqué de la responsabilidad social corporativa. 45–58.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://youtu.be/pE3VeNcYZ64" target="_blank" rel="noopener noreferrer") Banco Interamericano de Desarrollo (BID). (2020, 15 de septiembre). La crisis de la desigualdad | Lanzamiento del informe [Video]. YouTube.
